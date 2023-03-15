@@ -23,8 +23,6 @@ resources:
 - deployment.yml
 - service.yml
 
-apiVersion: kustomize.config.k8s.io/v1alpha1
-kind: Component
 images:
 - name: static-file-server
   newName: halverneus/static-file-server
